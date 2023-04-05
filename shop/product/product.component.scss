@@ -1,0 +1,13 @@
+.product{
+  width: 300px;
+  background-color: white;
+  padding: 16px;
+  .image{
+    height: 300px;
+    display: flex;
+    img{
+      height: 100%;
+      margin: auto;
+    }
+  }
+}

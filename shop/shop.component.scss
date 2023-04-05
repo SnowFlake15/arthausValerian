@@ -1,0 +1,26 @@
+.background{
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../assets/images/blank-concrete-white-wall-texture-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  // padding-top: 130px;
+}
+.products{
+  box-sizing: border-box;
+  padding-top:100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  // justify-content: space-between;
+  --gap: 12px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: calc(-1 * var(--gap)) 0 0 calc(-1 * var(--gap));
+  width: calc(100% + var(--gap));
+  > * {
+    margin: var(--gap) 0 0 var(--gap);
+  }
+}

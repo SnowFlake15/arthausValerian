@@ -1,0 +1,64 @@
+
+body{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.background-landing-page
+{
+  width: 100%;
+  height: 100%;
+  background-image: url('assets/images/J01399-D.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+
+}
+h1{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  font-size: 9vw;
+  color: #000000b4;
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  // background-color: rgba(0, 28, 50, 0.521);
+  background-color: rgba(54, 54, 54, 0.308);
+  position: absolute;
+}
+
+.title{
+  color: #929495;;
+  font-size: 100px;
+  background:linear-gradient(#262626,#eaeaea,#262626);
+  color:transparent;
+}
+h1>span{
+  white-space: nowrap;
+  /*color:white;*/
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 8vw;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  // background:linear-gradient(#262626,#eaeaea,#262626);
+//
+  background:linear-gradient(#474747,#eaeaea,#474747);
+  -webkit-background-clip: text;
+  color:transparent;
+}
+h1>span:nth-child(1)
+{
+  z-index: 2;
+}
+h1>span:nth-child(2)
+{
+  z-index: 1;
+  text-shadow: 1px 1px 0 #262626, 2px 2px 0 #262626, 3px 3px 0 #262626,
+  4px 4px 0 #262626, 5px 5px 0 #262626, 1px 1px 0 #262626, 6px 20px 20px rgba(0,0,0,1),
+  -1px -1px 0 #fff;
+}
+
