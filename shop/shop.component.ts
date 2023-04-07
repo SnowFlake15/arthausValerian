@@ -19,7 +19,7 @@ export class ShopComponent implements OnInit {
 
   // URL = 'https://jsonplaceholder.typicode.com/todos';
   URL = 'http://localhost:8080/api/products';
-  todos: any = [];
+  prods: any = [];
   posts: any;
 
   // constructor() {}
@@ -27,6 +27,7 @@ export class ShopComponent implements OnInit {
   ngOnInit() {
     this.getProducts().then();
     console.log(this.products);
+    this.getProds().then()
     //   await this.caller();
     // console.log(this.products)
   }
@@ -37,10 +38,12 @@ export class ShopComponent implements OnInit {
     this.products = await this.productSrvice.getProducts();
   }
 
-  async getTodos() {
+  async getProds() {
     // fetch('https://dummyjson.com/products/')
     // .then(res => res.json())
     // .then(json => console.log(json))
+    this.prods = await this.productSrvice.getProds()
+    console.log(this.prods)
     // try {
     //   this.products = this.http.get('http://jsonplaceholder.typicode.com/posts').subscribe(res=>res)
     //   // this.productSrvice.getProducts().subscribe(res=>this.products = res)

@@ -9,6 +9,8 @@ import { SharedComponent } from './shared/shared.component';
 import { ShopComponent } from './shop/shop.component';
 import { ProductComponent } from './shop/product/product.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ProductListComponent } from './shop/product-list/product-list.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { HttpClientModule } from '@angular/common/http';
     MainPageComponent,
     SharedComponent,
     ShopComponent,
-    ProductComponent
+    ProductComponent,
+    ProductListComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

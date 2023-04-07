@@ -10,6 +10,5 @@ export class ProductComponent implements OnInit {
   @Input() product: Product;
   constructor(){}
   ngOnInit(){
-    console.log(this.product)
   }
 }

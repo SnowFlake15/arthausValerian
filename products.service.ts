@@ -20,7 +20,7 @@ export class ProductsService {
   // products:any = []
   products: Product[] = [
     {
-      category: 'classical',
+      category: 'unikat',
       description:
         'Nicolas Francois Octave Tassaert was a French painter of portraits and genre, religious, historical and allegorical paintings, as well as a lithographer and engraver. He was the grandson of the sculptor Jean-Pierre-Antoine Tassaert.',
       discounted_price: null,
@@ -33,7 +33,7 @@ export class ProductsService {
       ccy: 'euro'
     },
     {
-      category: 'classical',
+      category: 'unikat',
       description:
         'Nicolas Francois Octave Tassaert was a French painter of portraits and genre, religious, historical and allegorical paintings, as well as a lithographer and engraver. He was the grandson of the sculptor Jean-Pierre-Antoine Tassaert.',
       discounted_price: null,
@@ -46,7 +46,7 @@ export class ProductsService {
       ccy: 'euro'
     },
     {
-      category: 'classical',
+      category: 'unikat',
       description:
         'Nicolas Francois Octave Tassaert was a French painter of portraits and genre, religious, historical and allegorical paintings, as well as a lithographer and engraver. He was the grandson of the sculptor Jean-Pierre-Antoine Tassaert.',
       discounted_price: null,
@@ -59,7 +59,7 @@ export class ProductsService {
       ccy: 'euro'
     },
     {
-      category: 'classical',
+      category: 'unikat',
       description:
         'Nicolas Francois Octave Tassaert was a French painter of portraits and genre, religious, historical and allegorical paintings, as well as a lithographer and engraver. He was the grandson of the sculptor Jean-Pierre-Antoine Tassaert.',
       discounted_price: null,
@@ -72,7 +72,7 @@ export class ProductsService {
       ccy: 'euro'
     },
     {
-      category: 'classical',
+      category: 'poster',
       description:
         'Nicolas Francois Octave Tassaert was a French painter of portraits and genre, religious, historical and allegorical paintings, as well as a lithographer and engraver. He was the grandson of the sculptor Jean-Pierre-Antoine Tassaert.',
       discounted_price: null,
@@ -85,7 +85,137 @@ export class ProductsService {
       ccy: 'euro'
     },
     {
-      category: 'classical',
+      category: 'poster',
+      description:
+        'Nicolas Francois Octave Tassaert was a French painter of portraits and genre, religious, historical and allegorical paintings, as well as a lithographer and engraver. He was the grandson of the sculptor Jean-Pierre-Antoine Tassaert.',
+      discounted_price: null,
+      price: 200.000,
+      id: 1,
+      img_url: 'https://mdl.artvee.com/ft/300807rg.jpg',
+      is_available: false,
+      name: 'Heaven and Hell',
+      year: 1850,
+      ccy: 'euro'
+    },
+    {
+      category: 'poster',
+      description:
+        'Nicolas Francois Octave Tassaert was a French painter of portraits and genre, religious, historical and allegorical paintings, as well as a lithographer and engraver. He was the grandson of the sculptor Jean-Pierre-Antoine Tassaert.',
+      discounted_price: null,
+      price: 200.000,
+      id: 1,
+      img_url: 'https://mdl.artvee.com/ft/300807rg.jpg',
+      is_available: false,
+      name: 'Heaven and Hell',
+      year: 1850,
+      ccy: 'euro'
+    },
+    {
+      category: 'poster',
+      description:
+        'Nicolas Francois Octave Tassaert was a French painter of portraits and genre, religious, historical and allegorical paintings, as well as a lithographer and engraver. He was the grandson of the sculptor Jean-Pierre-Antoine Tassaert.',
+      discounted_price: null,
+      price: 200.000,
+      id: 1,
+      img_url: 'https://mdl.artvee.com/ft/300807rg.jpg',
+      is_available: false,
+      name: 'Heaven and Hell',
+      year: 1850,
+      ccy: 'euro'
+    },
+    {
+      category: 'poster',
+      description:
+        'Nicolas Francois Octave Tassaert was a French painter of portraits and genre, religious, historical and allegorical paintings, as well as a lithographer and engraver. He was the grandson of the sculptor Jean-Pierre-Antoine Tassaert.',
+      discounted_price: null,
+      price: 200.000,
+      id: 1,
+      img_url: 'https://mdl.artvee.com/ft/300807rg.jpg',
+      is_available: false,
+      name: 'Heaven and Hell',
+      year: 1850,
+      ccy: 'euro'
+    },
+    {
+      category: 'poster',
+      description:
+        'Nicolas Francois Octave Tassaert was a French painter of portraits and genre, religious, historical and allegorical paintings, as well as a lithographer and engraver. He was the grandson of the sculptor Jean-Pierre-Antoine Tassaert.',
+      discounted_price: null,
+      price: 200.000,
+      id: 1,
+      img_url: 'https://mdl.artvee.com/ft/300807rg.jpg',
+      is_available: false,
+      name: 'Heaven and Hell',
+      year: 1850,
+      ccy: 'euro'
+    },
+    {
+      category: 'poster',
+      description:
+        'Nicolas Francois Octave Tassaert was a French painter of portraits and genre, religious, historical and allegorical paintings, as well as a lithographer and engraver. He was the grandson of the sculptor Jean-Pierre-Antoine Tassaert.',
+      discounted_price: null,
+      price: 200.000,
+      id: 1,
+      img_url: 'https://mdl.artvee.com/ft/300807rg.jpg',
+      is_available: false,
+      name: 'Heaven and Hell',
+      year: 1850,
+      ccy: 'euro'
+    },
+    {
+      category: 'last chance',
+      description:
+        'Nicolas Francois Octave Tassaert was a French painter of portraits and genre, religious, historical and allegorical paintings, as well as a lithographer and engraver. He was the grandson of the sculptor Jean-Pierre-Antoine Tassaert.',
+      discounted_price: null,
+      price: 200.000,
+      id: 1,
+      img_url: 'https://mdl.artvee.com/ft/300807rg.jpg',
+      is_available: false,
+      name: 'Heaven and Hell',
+      year: 1850,
+      ccy: 'euro'
+    },
+    {
+      category: 'last chance',
+      description:
+        'Nicolas Francois Octave Tassaert was a French painter of portraits and genre, religious, historical and allegorical paintings, as well as a lithographer and engraver. He was the grandson of the sculptor Jean-Pierre-Antoine Tassaert.',
+      discounted_price: null,
+      price: 200.000,
+      id: 1,
+      img_url: 'https://mdl.artvee.com/ft/300807rg.jpg',
+      is_available: false,
+      name: 'Heaven and Hell',
+      year: 1850,
+      ccy: 'euro'
+    },
+    {
+      category: 'last chance',
+      description:
+        'Nicolas Francois Octave Tassaert was a French painter of portraits and genre, religious, historical and allegorical paintings, as well as a lithographer and engraver. He was the grandson of the sculptor Jean-Pierre-Antoine Tassaert.',
+      discounted_price: null,
+      price: 200.000,
+      id: 1,
+      img_url: 'https://mdl.artvee.com/ft/300807rg.jpg',
+      is_available: false,
+      name: 'Heaven and Hell',
+      year: 1850,
+      ccy: 'euro'
+    },
+    {
+      category: 'last chance',
+      description:
+        'Nicolas Francois Octave Tassaert was a French painter of portraits and genre, religious, historical and allegorical paintings, as well as a lithographer and engraver. He was the grandson of the sculptor Jean-Pierre-Antoine Tassaert.',
+      discounted_price: null,
+      price: 200.000,
+      id: 1,
+      img_url: 'https://mdl.artvee.com/ft/300807rg.jpg',
+      is_available: false,
+      name: 'Heaven and Hell',
+      year: 1850,
+      ccy: 'euro'
+    },
+    {
+      category: 'last chance',
       description:
         'Nicolas Francois Octave Tassaert was a French painter of portraits and genre, religious, historical and allegorical paintings, as well as a lithographer and engraver. He was the grandson of the sculptor Jean-Pierre-Antoine Tassaert.',
       discounted_price: null,
@@ -99,12 +229,13 @@ export class ProductsService {
     },
   ];
   constructor(private http: HttpClient) {}
-  async getJSON() {
+  async getProds() {
     return fetch(apiUrl)
       .then((response) => response.json())
       .then((responseJson) => {
         return responseJson;
       });
+
   }
   async getProducts() {
     // return this.http.get<any>(apiUrl);
