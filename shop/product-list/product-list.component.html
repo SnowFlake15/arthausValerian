@@ -1,3 +1,8 @@
-  <div class="products">
-    <app-product *ngFor="let product of products" [product]="product"></app-product>
+<div class="products-background">
+  <div *ngFor="let item of groupedProds">
+    <h3>{{item.author}}</h3>
+    <div class="products">
+      <app-product *ngFor="let prod of item.product" [product]="prod"></app-product>
+    </div>
   </div>
+</div>
