@@ -5,6 +5,7 @@ import { ProductListComponent } from "./product-list/product-list.component";
 import { CategoriesComponent } from "./categories/categories.component";
 import { MainPageComponent } from "../main-page/main-page.component";
 import { ShopComponent } from "./shop.component";
+import { ProductPageComponent } from './product-page/product-page.component';
 
 export const routes: Routes = [
   {
@@ -26,6 +27,8 @@ export const routes: Routes = [
     // ProductComponent,
     // ProductListComponent,
     // CategoriesComponent
+  
+    ProductPageComponent
   ],
   imports: [RouterModule.forChild(routes)],
 })
