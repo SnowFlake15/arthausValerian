@@ -30,7 +30,8 @@ export class ProductsService {
       is_available: false,
       name: 'Heaven and Hell',
       year: 1850,
-      ccy: 'euro'
+      ccy: 'euro',
+      author: 'vsCode'
     },
     {
       category: 'unikat',
@@ -43,7 +44,8 @@ export class ProductsService {
       is_available: false,
       name: 'Heaven and Hell',
       year: 1850,
-      ccy: 'euro'
+      ccy: 'euro',
+      author: 'vsCode'
     },
     {
       category: 'unikat',
@@ -56,7 +58,8 @@ export class ProductsService {
       is_available: false,
       name: 'Heaven and Hell',
       year: 1850,
-      ccy: 'euro'
+      ccy: 'euro',
+      author: 'vsCode'
     },
     {
       category: 'unikat',
@@ -69,7 +72,8 @@ export class ProductsService {
       is_available: false,
       name: 'Heaven and Hell',
       year: 1850,
-      ccy: 'euro'
+      ccy: 'euro',
+      author: 'vsCode'
     },
     {
       category: 'poster',
@@ -82,7 +86,8 @@ export class ProductsService {
       is_available: false,
       name: 'Heaven and Hell',
       year: 1850,
-      ccy: 'euro'
+      ccy: 'euro',
+      author: 'vsCode'
     },
     {
       category: 'poster',
@@ -95,7 +100,8 @@ export class ProductsService {
       is_available: false,
       name: 'Heaven and Hell',
       year: 1850,
-      ccy: 'euro'
+      ccy: 'euro',
+      author: 'vsCode'
     },
     {
       category: 'poster',
@@ -108,7 +114,8 @@ export class ProductsService {
       is_available: false,
       name: 'Heaven and Hell',
       year: 1850,
-      ccy: 'euro'
+      ccy: 'euro',
+      author: 'vsCode'
     },
     {
       category: 'poster',
@@ -121,7 +128,8 @@ export class ProductsService {
       is_available: false,
       name: 'Heaven and Hell',
       year: 1850,
-      ccy: 'euro'
+      ccy: 'euro',
+      author: 'vsCode'
     },
     {
       category: 'poster',
@@ -134,7 +142,8 @@ export class ProductsService {
       is_available: false,
       name: 'Heaven and Hell',
       year: 1850,
-      ccy: 'euro'
+      ccy: 'euro',
+      author: 'vsCode'
     },
     {
       category: 'poster',
@@ -147,7 +156,8 @@ export class ProductsService {
       is_available: false,
       name: 'Heaven and Hell',
       year: 1850,
-      ccy: 'euro'
+      ccy: 'euro',
+      author: 'webStorm'
     },
     {
       category: 'poster',
@@ -160,10 +170,11 @@ export class ProductsService {
       is_available: false,
       name: 'Heaven and Hell',
       year: 1850,
-      ccy: 'euro'
+      ccy: 'euro',
+      author: 'webStorm'
     },
     {
-      category: 'last chance',
+      category: 'last-chance',
       description:
         'Nicolas Francois Octave Tassaert was a French painter of portraits and genre, religious, historical and allegorical paintings, as well as a lithographer and engraver. He was the grandson of the sculptor Jean-Pierre-Antoine Tassaert.',
       discounted_price: null,
@@ -173,10 +184,11 @@ export class ProductsService {
       is_available: false,
       name: 'Heaven and Hell',
       year: 1850,
-      ccy: 'euro'
+      ccy: 'euro',
+      author: 'vsCode'
     },
     {
-      category: 'last chance',
+      category: 'last-chance',
       description:
         'Nicolas Francois Octave Tassaert was a French painter of portraits and genre, religious, historical and allegorical paintings, as well as a lithographer and engraver. He was the grandson of the sculptor Jean-Pierre-Antoine Tassaert.',
       discounted_price: null,
@@ -186,10 +198,11 @@ export class ProductsService {
       is_available: false,
       name: 'Heaven and Hell',
       year: 1850,
-      ccy: 'euro'
+      ccy: 'euro',
+      author: 'vsCode'
     },
     {
-      category: 'last chance',
+      category: 'last-chance',
       description:
         'Nicolas Francois Octave Tassaert was a French painter of portraits and genre, religious, historical and allegorical paintings, as well as a lithographer and engraver. He was the grandson of the sculptor Jean-Pierre-Antoine Tassaert.',
       discounted_price: null,
@@ -199,10 +212,11 @@ export class ProductsService {
       is_available: false,
       name: 'Heaven and Hell',
       year: 1850,
-      ccy: 'euro'
+      ccy: 'euro',
+      author: 'vsCode'
     },
     {
-      category: 'last chance',
+      category: 'last-chance',
       description:
         'Nicolas Francois Octave Tassaert was a French painter of portraits and genre, religious, historical and allegorical paintings, as well as a lithographer and engraver. He was the grandson of the sculptor Jean-Pierre-Antoine Tassaert.',
       discounted_price: null,
@@ -212,10 +226,11 @@ export class ProductsService {
       is_available: false,
       name: 'Heaven and Hell',
       year: 1850,
-      ccy: 'euro'
+      ccy: 'euro',
+      author: 'vsCode'
     },
     {
-      category: 'last chance',
+      category: 'last-chance',
       description:
         'Nicolas Francois Octave Tassaert was a French painter of portraits and genre, religious, historical and allegorical paintings, as well as a lithographer and engraver. He was the grandson of the sculptor Jean-Pierre-Antoine Tassaert.',
       discounted_price: null,
@@ -225,20 +240,22 @@ export class ProductsService {
       is_available: false,
       name: 'Heaven and Hell',
       year: 1850,
-      ccy: 'euro'
+      ccy: 'euro',
+      author: 'vsCode'
     },
   ];
   constructor(private http: HttpClient) {}
   async getProds() {
-    return fetch(apiUrl)
-      .then((response) => response.json())
-      .then((responseJson) => {
-        return responseJson;
-      });
+    // return fetch(apiUrl)
+    //   .then((response) => response.json())
+    //   .then((responseJson) => {
+    //     return responseJson;
+    //   });
 
   }
   async getProducts() {
     // return this.http.get<any>(apiUrl);
-    return this.products;
+    console.log(this.products)
+    return await this.products;
   }
 }

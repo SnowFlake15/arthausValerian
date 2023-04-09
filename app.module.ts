@@ -11,6 +11,7 @@ import { ProductComponent } from './shop/product/product.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProductListComponent } from './shop/product-list/product-list.component';
 import { FooterComponent } from './footer/footer.component';
+import { CategoriesComponent } from './shop/categories/categories.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
     ShopComponent,
     ProductComponent,
     ProductListComponent,
-    FooterComponent
+    FooterComponent,
+    CategoriesComponent
   ],
   imports: [
     BrowserModule,

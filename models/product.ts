@@ -9,4 +9,5 @@ export interface Product {
   name: string,
   year: number,
   ccy: string,
+  author: string,
 }
