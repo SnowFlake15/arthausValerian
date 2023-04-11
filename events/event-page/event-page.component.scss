@@ -1,0 +1,13 @@
+.event-page-background{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('../../../assets/images/blank-concrete-white-wall-texture-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  // padding-top: 130px;
+  padding-top:100px;
+}
+.event{
+  display: flex;
+}

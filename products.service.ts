@@ -10,7 +10,7 @@ import { Observable, of } from 'rxjs';
 import { Product } from './models/product';
 
 // const apiUrl = `http://jsonplaceholder.typicode.com/posts`
-const apiUrl = `http://localhost:8080/api/products`;
+const apiUrl = `https://arthausvalerian.de/api/products`;
 @Injectable({
   providedIn: 'root',
 })
@@ -246,11 +246,11 @@ export class ProductsService {
   ];
   constructor(private http: HttpClient) {}
   async getProds() {
-    // return fetch(apiUrl)
-    //   .then((response) => response.json())
-    //   .then((responseJson) => {
-    //     return responseJson;
-    //   });
+    return fetch(apiUrl)
+      .then((response) => response.json())
+      .then((responseJson) => {
+        return responseJson;
+      });
 
   }
   async getProducts() {

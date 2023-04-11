@@ -6,6 +6,8 @@ import { ProductListComponent } from './shop/product-list/product-list.component
 import { CategoriesComponent } from './shop/categories/categories.component';
 import { ProductComponent } from './shop/product/product.component';
 import { ProductPageComponent } from './shop/product-page/product-page.component';
+import { EventsComponent } from './events/events.component';
+import { EventPageComponent } from './events/event-page/event-page.component';
 
 const routes: Routes = [
     // {
@@ -33,7 +35,15 @@ const routes: Routes = [
   {
     path: 'shop/category/:category/:id/:name',
     component: ProductPageComponent
-  }
+  },
+  {
+    path: 'events',
+    component: EventsComponent
+  },
+  {
+    path: 'events/:id/:event',
+    component: EventPageComponent
+  },
 ];
 
 @NgModule({

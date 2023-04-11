@@ -27,7 +27,7 @@ export class ShopComponent implements OnInit {
   ngOnInit() {
     // this.getProducts().then();
     // console.log(this.products);
-    // this.getProds().then()
+    this.getProds().then()
     //   await this.caller();
     // console.log(this.products)
   }

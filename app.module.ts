@@ -12,6 +12,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { ProductListComponent } from './shop/product-list/product-list.component';
 import { FooterComponent } from './footer/footer.component';
 import { CategoriesComponent } from './shop/categories/categories.component';
+import { EventsComponent } from './events/events.component';
+import { EventComponent } from './events/event/event.component';
+import { EventPageComponent } from './events/event-page/event-page.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { CategoriesComponent } from './shop/categories/categories.component';
     ProductComponent,
     ProductListComponent,
     FooterComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    EventsComponent,
+    EventComponent,
+    EventPageComponent
   ],
   imports: [
     BrowserModule,

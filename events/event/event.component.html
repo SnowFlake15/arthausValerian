@@ -1,0 +1,8 @@
+<div class="event">
+  <div class="image"><img src="{{ event.images }}" alt="" /></div>
+  <div>
+    <p>{{ event.title }}</p>
+    <p>{{ event.date }}</p>
+    <button  [routerLink]="event.id+'/'+event.title">See More</button>
+  </div>
+</div>
