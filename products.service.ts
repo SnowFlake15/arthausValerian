@@ -258,6 +258,13 @@ export class ProductsService {
     console.log(this.products)
     return await this.products;
   }
+  async getProdsByCategory(category: string){
+    let productsCategorised= [];
+     productsCategorised = this.products.filter(
+      (product: Product) => product.category === category
+    );
+    return productsCategorised
+  }
   async getProdOne(id: any){
     // return this.getProducts().then(
       // this.products.map((id) => {

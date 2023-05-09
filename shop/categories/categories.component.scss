@@ -1,15 +1,15 @@
-.category-single-outer{
+.category-single-outer {
   box-sizing: border-box;
   width: 80%;
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.500);
+  background-color: rgba(0, 0, 0, 0.5);
   margin: auto;
   transition: 0.5s;
   margin-bottom: 30px;
-  .category-single{
+  .category-single {
     border: 2px white solid;
     display: flex;
     box-sizing: border-box;
@@ -18,29 +18,105 @@
     padding: 20px;
     align-items: center;
     transition: 0.5s;
-    .category-single-image{
+    .category-single-image {
       margin: auto;
       margin-right: 20px;
       width: 500px;
-      img{
+      img {
         width: 100%;
       }
     }
-    .category-single-desc{
-      h3{
+    .category-single-desc {
+      h3 {
         font-size: 30px;
       }
-      p{
+      p {
         font-size: 25px;
       }
     }
   }
-  &:hover{
+  &:hover {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.664);
-    .category-single{
+    .category-single {
       padding: 30px;
     }
   }
 }
 
+.categories {
+  @media (min-width: 640px) {
+    max-width: 640px;
+  }
+  @media (min-width: 768px) {
+    max-width: 768px;
+  }
+  @media (min-width: 1024px) {
+    max-width: 1024px;
+  }
+  @media (min-width: 1280px) {
+    max-width: 1280px;
+  }
+  @media (min-width: 1601px) {
+    max-width: 1601px;
+  }
+  margin: auto;
+  display: flex;
+  .category {
+    background-color: rgba(255, 255, 255, 0.377);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @media (min-width: 1024px) {
+      width: 33.333333%;
+      padding: 14px;
+      border: 1px solid black;
+    }
+    .category-single-image.thumbnail-zoom {
+      height: 70%;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      img {
+        width: 100%;
+      }
+    }
+    .category-single-desc {
+      height: 180px;
+      padding-top: 20px;
+      display: flex;
+      flex-direction: column;
+      // font-size: 0.875rem;
+      font-weight: 700;
+      // color: rgba(151,151,151);
+
+      font-size: 1.75rem;
+      color: black;
+      p {
+        font-size: 1.25rem;
+        color: rgb(102, 102, 102);
+        padding-top: 20px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3; /* start showing ellipsis when 3rd line is reached */
+        white-space: pre-wrap;
+      }
+      .arrow {
+        font-size: 1.75rem;
+        font-weight: 400;
+      }
+      i {
+        line-height: 1;
+      }
+      .text-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        overflow: hidden;
+      }
+    }
+  }
+}

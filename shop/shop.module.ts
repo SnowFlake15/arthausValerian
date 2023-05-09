@@ -6,6 +6,7 @@ import { CategoriesComponent } from "./categories/categories.component";
 import { MainPageComponent } from "../main-page/main-page.component";
 import { ShopComponent } from "./shop.component";
 import { ProductPageComponent } from './product-page/product-page.component';
+import { CommonModule } from '@angular/common';
 
 export const routes: Routes = [
   {
@@ -26,10 +27,11 @@ export const routes: Routes = [
   declarations: [
     // ProductComponent,
     // ProductListComponent,
-    // CategoriesComponent
-  
-    ProductPageComponent
+    // CategoriesComponent,
+    // ProductPageComponent
+
   ],
-  imports: [RouterModule.forChild(routes)],
+  imports: [RouterModule.forChild(routes), CommonModule],
+
 })
 export class ShopModule {}

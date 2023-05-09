@@ -1,8 +1,28 @@
-<div class="product-page-background">
-  <div class="image"><img src="{{product.img_url}}" alt=""></div>
-  <div>
-    <p>{{product.name}}</p>
-    <p>{{product.author}}</p>
-    <p>{{product.price}}</p>
+<div class="product-page-background" *ngIf="product">
+  <div class="product-page">
+    <div
+      [class]="'image'"
+      [style.background-image]="'url(' + product?.img_url + ')'"
+    ></div>
+    <div class="description">
+      <p class="prod-category">{{ product.category }}</p>
+      <p class="prod-name">{{ product.name }}</p>
+      <p class="prod-desc">{{ product.author }}</p>
+      <p class="prod-price">{{ product.price }}</p>
+      <button>Add to cart</button>
+    </div>
   </div>
+  <div>
+    <swiper-container
+      slides-per-view="3"
+      [loop]="true"
+      [navigation]="true"
+    >
+      <swiper-slide *ngFor="let item of productsCategorised"
+        ><app-product [product]="item"></app-product
+      ></swiper-slide>
+    </swiper-container>
+  </div>
+
+  <!-- <app-products-slider [category]="product."></app-products-slider> -->
 </div>

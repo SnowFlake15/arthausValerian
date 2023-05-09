@@ -1,3 +1,37 @@
-<div class="background events">
-  <app-event *ngFor="let item of events" [event]="item"></app-event>
+<div class="background eventss">
+  <ul class="timeline">
+    <li>
+      <h2 class="title">WHAT’S THE PROCESS?</h2>
+      <p>&nbsp;</p>
+    </li>
+    <li
+      *ngFor="let item of events; index as i"
+      [ngClass]="(i + 1) % 2 ? '' : 'timeline-inverted'"
+    >
+      <div class="timeline-badge">&nbsp;</div>
+
+      <div class="timeline-badge2">{{ item.date }}</div>
+      <div class="timeline-panel">
+        <div>
+          <div class="timeline-heading">
+            <h4 class="timeline-title">
+              <span>{{ i + 1 }}.</span> {{ item.title }}
+            </h4>
+          </div>
+          <div class="timeline-body">
+            <p>
+              {{ item.description }}
+            </p>
+          </div>
+          <button class="event-button" [routerLink]="item.id+'/'+item.title ">See More</button>
+        </div>
+        <div class="timeline-image">
+          <img src="{{item?.images}}" alt="">
+        </div>
+
+      </div>
+    </li>
+  </ul>
+
+
 </div>

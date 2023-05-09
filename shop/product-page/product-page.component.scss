@@ -1,3 +1,4 @@
+
 .product-page-background{
   width: 100%;
   min-height: 100vh;
@@ -6,5 +7,56 @@
   background-position: center;
   background-size: cover;
   // padding-top: 130px;
-  padding-top:100px;
+  // padding-top:100px;
+
+}
+.product-page{
+  display: flex;
+  .image{
+    width: 50%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .description{
+    padding-top: 150px;
+    padding-left: 50px;
+    width: 50%;
+    height: 100vh;
+    .prod-name{
+      font-size: 84.75px;
+      padding-bottom: 20px;
+    }
+    .prod-price{
+      font-size: 30px;
+    }
+    .prod-category{
+      font-size: 20px;
+    }
+    .prod-desc{
+      font-size: 20px;
+      padding-bottom: 40px;
+    }
+    button{
+      margin-top: 40px;
+      padding: 10px 150px;
+      font-size: 20px;
+      background: #000000 ;
+      color: white ;
+      border: 0px;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
+}
+swiper-container{
+--swiper-navigation-color: black;
+
+// padding: 0px 70px;
+}
+swiper-slide{
+  display: flex;
+  justify-content: center;
 }
