@@ -31,7 +31,8 @@ export class ProductsService {
       name: 'Heaven and Hell',
       year: 1850,
       ccy: 'euro',
-      author: 'vsCode'
+      author: 'vsCode',
+      quantity: 0,
     },
     {
       category: 'unikat',
@@ -45,7 +46,8 @@ export class ProductsService {
       name: 'Heaven and Hell',
       year: 1850,
       ccy: 'euro',
-      author: 'vsCode'
+      author: 'vsCode',
+      quantity: 0,
     },
     {
       category: 'unikat',
@@ -59,7 +61,8 @@ export class ProductsService {
       name: 'Heaven and Hell',
       year: 1850,
       ccy: 'euro',
-      author: 'vsCode'
+      author: 'vsCode',
+      quantity: 0,
     },
     {
       category: 'unikat',
@@ -73,7 +76,8 @@ export class ProductsService {
       name: 'Heaven and Hell',
       year: 1850,
       ccy: 'euro',
-      author: 'vsCode'
+      author: 'vsCode',
+      quantity: 0,
     },
     {
       category: 'poster',
@@ -87,7 +91,8 @@ export class ProductsService {
       name: 'Heaven and Hell',
       year: 1850,
       ccy: 'euro',
-      author: 'vsCode'
+      author: 'vsCode',
+      quantity: 0,
     },
     {
       category: 'poster',
@@ -101,7 +106,8 @@ export class ProductsService {
       name: 'Heaven and Hell',
       year: 1850,
       ccy: 'euro',
-      author: 'vsCode'
+      author: 'vsCode',
+      quantity: 0,
     },
     {
       category: 'poster',
@@ -115,7 +121,8 @@ export class ProductsService {
       name: 'Heaven and Hell',
       year: 1850,
       ccy: 'euro',
-      author: 'vsCode'
+      author: 'vsCode',
+      quantity: 0,
     },
     {
       category: 'poster',
@@ -129,7 +136,8 @@ export class ProductsService {
       name: 'Heaven and Hell',
       year: 1850,
       ccy: 'euro',
-      author: 'vsCode'
+      author: 'vsCode',
+      quantity: 0,
     },
     {
       category: 'poster',
@@ -143,7 +151,8 @@ export class ProductsService {
       name: 'Heaven and Hell',
       year: 1850,
       ccy: 'euro',
-      author: 'vsCode'
+      author: 'vsCode',
+      quantity: 0,
     },
     {
       category: 'poster',
@@ -157,7 +166,8 @@ export class ProductsService {
       name: 'Heaven and Hell',
       year: 1850,
       ccy: 'euro',
-      author: 'webStorm'
+      author: 'webStorm',
+      quantity: 0,
     },
     {
       category: 'poster',
@@ -171,7 +181,8 @@ export class ProductsService {
       name: 'Heaven and Hell',
       year: 1850,
       ccy: 'euro',
-      author: 'webStorm'
+      author: 'webStorm',
+      quantity: 0,
     },
     {
       category: 'last-chance',
@@ -185,7 +196,8 @@ export class ProductsService {
       name: 'Heaven and Hell',
       year: 1850,
       ccy: 'euro',
-      author: 'vsCode'
+      author: 'vsCode',
+      quantity: 0,
     },
     {
       category: 'last-chance',
@@ -199,7 +211,8 @@ export class ProductsService {
       name: 'Heaven and Hell',
       year: 1850,
       ccy: 'euro',
-      author: 'vsCode'
+      author: 'vsCode',
+      quantity: 0,
     },
     {
       category: 'last-chance',
@@ -213,7 +226,8 @@ export class ProductsService {
       name: 'Heaven and Hell',
       year: 1850,
       ccy: 'euro',
-      author: 'vsCode'
+      author: 'vsCode',
+      quantity: 0,
     },
     {
       category: 'last-chance',
@@ -227,7 +241,8 @@ export class ProductsService {
       name: 'Heaven and Hell',
       year: 1850,
       ccy: 'euro',
-      author: 'vsCode'
+      author: 'vsCode',
+      quantity: 0,
     },
     {
       category: 'last-chance',
@@ -241,7 +256,8 @@ export class ProductsService {
       name: 'Heaven and Hell',
       year: 1850,
       ccy: 'euro',
-      author: 'vsCode'
+      author: 'vsCode',
+      quantity: 0,
     },
   ];
   constructor(private http: HttpClient) {}

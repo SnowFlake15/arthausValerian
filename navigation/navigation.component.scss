@@ -35,5 +35,19 @@ border: 1px solid rgba(255, 255, 255, 0.25);
         color: black;
       }
     }
+    .cart{
+      position:relative;
+      .items{
+        position: absolute;
+        font-size: 12px;
+        top: -10px;
+        right: -10px;
+        color: white;
+        background-color: black;
+        padding: 4px;
+        border-radius: 30px;
+        border: white solid 1px;
+      }
+    }
   }
 }

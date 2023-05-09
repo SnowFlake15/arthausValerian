@@ -1,4 +1,5 @@
 export interface Product {
+  quantity: number;
   category: string,
   description: string,
   discounted_price: null,

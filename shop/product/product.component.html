@@ -1,8 +1,11 @@
-<div class="product" [routerLink]="product.id+'/'+product.name">
-  <div class="image"><img src="{{product.img_url}}" alt=""></div>
+<div class="product">
+  <!-- <div class="product" [routerLink]="'../../'+product.id+'/'+product.name"> -->
+  <div class="image"  [routerLink]="product.id+'/'+product.name"><img src="{{product.img_url}}" alt=""></div>
   <div>
+    <p>{{product.id}}</p>
     <p>{{product.name}}</p>
     <p>{{product.author}}</p>
     <p>{{product.price}}</p>
   </div>
+  <button (click)="addToCart()">add to cart</button>
 </div>

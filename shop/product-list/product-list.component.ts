@@ -28,7 +28,6 @@ export class ProductListComponent implements OnInit {
 
   async getProducts() {
     this.products = await this.productSrvice.getProducts();
-    console.log(this.products);
     this.products = this.products.filter(
       (product: Product) => product.category === this.category
     );
@@ -50,7 +49,5 @@ export class ProductListComponent implements OnInit {
         }
       })
     })
-    console.log(this.groupedProds)
-    console.log(this.authors);
   }
 }
