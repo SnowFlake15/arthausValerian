@@ -1,0 +1,19 @@
+<div class="background">
+  <div *ngFor="let item of prods" class="product">
+    <img [src]="item.img_url" />
+    <div>
+      <p>{{ item.description }}</p>
+
+      <p>{{ item.id }}</p>
+      <div class="quantity">
+        <i class="fa-solid fa-minus" (click)="decQuantity(item.id)"></i>
+        <p>quantity: {{ item.quantity }}</p>
+
+        <i class="fa-solid fa-plus" (click)="incQuantity(item.id)"></i>
+      </div>
+      <p>price: {{ item.price }}</p>
+      <i class="fa-solid fa-x" (click)="removeItem(item)"></i>
+    </div>
+  </div>
+  <h3>total price: {{ totalPrice }}</h3>
+</div>

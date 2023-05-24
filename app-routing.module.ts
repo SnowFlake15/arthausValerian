@@ -8,6 +8,7 @@ import { ProductComponent } from './shop/product/product.component';
 import { ProductPageComponent } from './shop/product-page/product-page.component';
 import { EventsComponent } from './events/events.component';
 import { EventPageComponent } from './events/event-page/event-page.component';
+import { CartComponent } from './cart/cart.component';
 
 const routes: Routes = [
     // {
@@ -43,6 +44,10 @@ const routes: Routes = [
   {
     path: 'events/:id/:event',
     component: EventPageComponent
+  },
+  {
+    path: 'cart',
+    component: CartComponent
   },
 ];
 

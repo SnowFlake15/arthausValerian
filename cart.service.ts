@@ -122,8 +122,27 @@ export class CartService {
     }
     this.itemsInCart();
   }
+  incQuantity(id: number) {
+    const index = this.items.findIndex((o) => o.id === id);
+    this.items[index].quantity += 1;
+    this.saveCart();
+    this.itemsInCart();
+  }
+  decQuantity(id: number) {
+    const index = this.items.findIndex((o) => o.id === id);
+    this.items[index].quantity > 0 ? (this.items[index].quantity -= 1) : null;
+    this.saveCart();
+    this.itemsInCart();
+  }
 
   itemInCart(item: Product): boolean {
     return this.items.findIndex((o) => o.id === item.id) > -1;
+  }
+  totalPrice() {
+    let price = 0;
+    for (let item of this.items) {
+      price += item.price * item.quantity;
+    }
+    return price;
   }
 }

@@ -1,12 +1,12 @@
-<div class="navigation">
+<div class="navigation navbar" id="navigation" (scroll)="onWindowScroll();">
   <div href="/" class="header-logo">
   </div>
   <ul>
-    <li><a href="/">home</a></li>
+    <li><a [routerLink]="'/'">home</a></li>
     <li><a>about us</a></li>
     <li><a>service</a></li>
-    <li><a href="/shop">shop</a></li>
-    <li><a href="/events">events</a></li>
-    <li class="cart"><i class="fa-solid fa-cart-shopping"></i><div class="items">{{cartService.itemsCount}}</div></li>
+    <li><a [routerLink]="'/shop'">shop</a></li>
+    <li><a [routerLink]="'/events'">events</a></li>
+    <li class="cart" [routerLink]="'/cart'"><i class="fa-solid fa-cart-shopping"></i><div class="items">{{cartService.itemsCount}}</div></li>
   </ul>
 </div>

@@ -1,0 +1,29 @@
+.product{
+  display: flex;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 15px;
+  img{
+    max-height: 200px;
+    max-width: 400px;
+    margin-right: 50px;
+  }
+  .quantity{
+    display: flex;
+    i{
+      cursor: pointer;
+    }
+  }
+}
+.background{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('../../assets/images/blank-concrete-white-wall-texture-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  // padding-top: 130px;
+  padding-top:100px;
+}

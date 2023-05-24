@@ -10,11 +10,7 @@
   // background-color: rgba(255, 255, 255, 0.466);
   position: fixed;
   /* From https://css.glass */
-background: rgba(255, 255, 255, 0.25);
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(4px);
--webkit-backdrop-filter: blur(4px);
-border: 1px solid rgba(255, 255, 255, 0.25);
+
   .header-logo{
     background-image: url('../../assets/images/logo.png');
     width: 50px;
@@ -50,4 +46,12 @@ border: 1px solid rgba(255, 255, 255, 0.25);
       }
     }
   }
+}
+.navbar-inverse
+{
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
 }
